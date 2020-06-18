@@ -6,7 +6,7 @@
           {
             "RelativeFilename": "backimage.png",
             "Alpha": 255,
-            "Name": "image1",
+            "Name": "Background",
             "X": 0,
             "Y": 0,
             "Width": 480,
@@ -20,7 +20,7 @@
           }
         ],
         "Interactions": [],
-        "Name": "Screen1",
+        "Name": "MainWindow",
         "OverrideDefaultBufferSize": false,
         "CanvasBufferSize": 0
       }
@@ -32,7 +32,7 @@
       "Height": 480
     },
     "SelectedColorDepth": 24,
-    "StartupScreenName": "Screen1",
+    "StartupScreenName": "MainWindow",
     "SelectedStartupLanguage": "GB",
     "Skin": "Blue",
     "TouchGfxPath": "touchgfx",

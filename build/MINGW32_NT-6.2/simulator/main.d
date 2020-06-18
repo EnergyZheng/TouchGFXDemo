@@ -66,12 +66,14 @@ build/MINGW32_NT-6.2/simulator/main.o: simulator/main.cpp \
  touchgfx/framework/include/touchgfx/JSMOCHelper.hpp \
  touchgfx/framework/include/mvp/Presenter.hpp \
  gui/include/gui/model/Model.hpp \
- gui/include/gui/screen1_screen/Screen1View.hpp \
- generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp \
- gui/include/gui/screen1_screen/Screen1Presenter.hpp \
+ gui/include/gui/mainwindow_screen/MainWindowView.hpp \
+ generated/gui_generated/include/gui_generated/mainwindow_screen/MainWindowViewBase.hpp \
+ gui/include/gui/mainwindow_screen/MainWindowPresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ gui/include/gui/common/SlideMenuContainer.hpp \
+ touchgfx/framework/include/touchgfx/containers/ListLayout.hpp \
  generated/gui_generated/include/gui_generated/common/SimConstants.hpp \
  touchgfx/framework/include/platform/driver/touch/SDL2TouchController.hpp \
  generated/simulator/include/simulator/mainBase.hpp
@@ -210,17 +212,21 @@ touchgfx/framework/include/mvp/Presenter.hpp:
 
 gui/include/gui/model/Model.hpp:
 
-gui/include/gui/screen1_screen/Screen1View.hpp:
+gui/include/gui/mainwindow_screen/MainWindowView.hpp:
 
-generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp:
+generated/gui_generated/include/gui_generated/mainwindow_screen/MainWindowViewBase.hpp:
 
-gui/include/gui/screen1_screen/Screen1Presenter.hpp:
+gui/include/gui/mainwindow_screen/MainWindowPresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
 touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+gui/include/gui/common/SlideMenuContainer.hpp:
+
+touchgfx/framework/include/touchgfx/containers/ListLayout.hpp:
 
 generated/gui_generated/include/gui_generated/common/SimConstants.hpp:
 

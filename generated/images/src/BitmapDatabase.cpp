@@ -10,7 +10,7 @@ extern const unsigned char _backimage[]; // BITMAP_BACKIMAGE_ID = 0, Size: 480x8
 
 const touchgfx::Bitmap::BitmapData bitmap_database[] =
 {
-    { _backimage, 0, 480, 800, 0, 0, 480, (uint8_t)(touchgfx::Bitmap::ARGB8888) >> 3, 800, (uint8_t)(touchgfx::Bitmap::ARGB8888) & 0x7 }
+    { _backimage, 0, 480, 800, 0, 0, 480, (uint8_t)(touchgfx::Bitmap::RGB888) >> 3, 800, (uint8_t)(touchgfx::Bitmap::RGB888) & 0x7 }
 };
 
 namespace BitmapDatabase

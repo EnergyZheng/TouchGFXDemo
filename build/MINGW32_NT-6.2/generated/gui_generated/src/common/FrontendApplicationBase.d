@@ -42,12 +42,14 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  generated/gui_generated/include/gui_generated/common/FrontendHeapBase.hpp \
  touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp \
  gui/include/gui/common/FrontendApplication.hpp \
- gui/include/gui/screen1_screen/Screen1View.hpp \
- generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp \
- gui/include/gui/screen1_screen/Screen1Presenter.hpp \
+ gui/include/gui/mainwindow_screen/MainWindowView.hpp \
+ generated/gui_generated/include/gui_generated/mainwindow_screen/MainWindowViewBase.hpp \
+ gui/include/gui/mainwindow_screen/MainWindowPresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ gui/include/gui/common/SlideMenuContainer.hpp \
+ touchgfx/framework/include/touchgfx/containers/ListLayout.hpp \
  generated/texts/include/texts/TextKeysAndLanguages.hpp \
  touchgfx/framework/include/touchgfx/Texts.hpp \
  touchgfx/framework/include/platform/driver/lcd/LCD24bpp.hpp
@@ -138,17 +140,21 @@ touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:
 
 gui/include/gui/common/FrontendApplication.hpp:
 
-gui/include/gui/screen1_screen/Screen1View.hpp:
+gui/include/gui/mainwindow_screen/MainWindowView.hpp:
 
-generated/gui_generated/include/gui_generated/screen1_screen/Screen1ViewBase.hpp:
+generated/gui_generated/include/gui_generated/mainwindow_screen/MainWindowViewBase.hpp:
 
-gui/include/gui/screen1_screen/Screen1Presenter.hpp:
+gui/include/gui/mainwindow_screen/MainWindowPresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
 touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+gui/include/gui/common/SlideMenuContainer.hpp:
+
+touchgfx/framework/include/touchgfx/containers/ListLayout.hpp:
 
 generated/texts/include/texts/TextKeysAndLanguages.hpp:
 
