@@ -172,6 +172,18 @@
     <Filter Include="Source Files\generated\gui_generated\mainwindow_screen">
       <UniqueIdentifier>DF32E121-B07C-AA98-C167-6A24AB30BC15</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\gui\containers">
+      <UniqueIdentifier>38FA9EFF-90B8-BE56-466B-13DD5950A59A</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\containers">
+      <UniqueIdentifier>F7481051-F0B6-B620-AC9D-1455E49EA479</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\containers">
+      <UniqueIdentifier>95144F5E-AE73-5227-CBC2-C256B806CFE9</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\containers">
+      <UniqueIdentifier>4AE42FA3-63BF-FB08-7D60-78A753E30594</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDL2TouchController.cpp">
@@ -212,6 +224,12 @@
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\mainwindow_screen\MainWindowViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\mainwindow_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\containers\SliderWindow.cpp">
+      <Filter>Source Files\gui\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\SliderWindowBase.cpp">
+      <Filter>Source Files\generated\gui_generated\containers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -657,6 +675,12 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\mainwindow_screen\MainWindowViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\mainwindow_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\containers\SliderWindow.hpp">
+      <Filter>Header Files\gui\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\SliderWindowBase.hpp">
+      <Filter>Header Files\generated\gui_generated\containers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

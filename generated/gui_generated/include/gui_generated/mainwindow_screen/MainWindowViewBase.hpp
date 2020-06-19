@@ -8,6 +8,9 @@
 #include <mvp/View.hpp>
 #include <gui/mainwindow_screen/MainWindowPresenter.hpp>
 #include <touchgfx/widgets/Image.hpp>
+#include <gui/containers/SliderWindow.hpp>
+#include <touchgfx/EasingEquations.hpp>
+#include <touchgfx/mixins/MoveAnimator.hpp>
 
 class MainWindowViewBase : public touchgfx::View<MainWindowPresenter>
 {
@@ -25,6 +28,7 @@ protected:
      * Member Declarations
      */
     touchgfx::Image Background;
+    touchgfx::MoveAnimator< SliderWindow > sliderWindow1;
 
 private:
 

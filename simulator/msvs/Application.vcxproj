@@ -24,6 +24,8 @@
     <ClCompile Include="..\..\gui\src\mainwindow_screen\MainWindowPresenter.cpp"/>
     <ClCompile Include="..\..\gui\src\mainwindow_screen\MainWindowView.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\mainwindow_screen\MainWindowViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\SliderWindow.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\SliderWindowBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xlsx"/>
@@ -175,6 +177,8 @@
     <ClInclude Include="..\..\gui\include\gui\mainwindow_screen\MainWindowPresenter.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\mainwindow_screen\MainWindowView.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\mainwindow_screen\MainWindowViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\SliderWindow.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\SliderWindowBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

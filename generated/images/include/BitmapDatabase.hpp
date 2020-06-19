@@ -8,6 +8,20 @@
 #include <touchgfx/Bitmap.hpp>
 
 const uint16_t BITMAP_BACKIMAGE_ID = 0;
+const uint16_t BITMAP_BUTTON1_ID = 1;
+const uint16_t BITMAP_BUTTON1_PRESS_ID = 2;
+const uint16_t BITMAP_BUTTON2_ID = 3;
+const uint16_t BITMAP_BUTTON2_PRESS_ID = 4;
+const uint16_t BITMAP_BUTTON3_ID = 5;
+const uint16_t BITMAP_BUTTON3_PRESS_ID = 6;
+const uint16_t BITMAP_BUTTON4_ID = 7;
+const uint16_t BITMAP_BUTTON4_PRESS_ID = 8;
+const uint16_t BITMAP_LEFT_ID = 9;
+const uint16_t BITMAP_RIGHT_ID = 10;
+const uint16_t BITMAP_RUN_ID = 11;
+const uint16_t BITMAP_RUN_PRESS_ID = 12;
+const uint16_t BITMAP_SMALLBACK_ID = 13;
+const uint16_t BITMAP_SMALLBACK2_ID = 14;
 
 namespace BitmapDatabase
 {

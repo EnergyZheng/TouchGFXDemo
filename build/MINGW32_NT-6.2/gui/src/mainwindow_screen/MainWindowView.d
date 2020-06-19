@@ -46,6 +46,18 @@ build/MINGW32_NT-6.2/gui/src/mainwindow_screen/MainWindowView.o: \
  gui/include/gui/model/ModelListener.hpp \
  touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ gui/include/gui/containers/SliderWindow.hpp \
+ generated/gui_generated/include/gui_generated/containers/SliderWindowBase.hpp \
+ touchgfx/framework/include/touchgfx/widgets/Box.hpp \
+ touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
+ touchgfx/framework/include/touchgfx/widgets/Button.hpp \
+ touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
+ touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ touchgfx/framework/include/touchgfx/FontManager.hpp \
+ touchgfx/framework/include/touchgfx/TypedText.hpp \
+ touchgfx/framework/include/touchgfx/Texts.hpp \
+ touchgfx/framework/include/touchgfx/EasingEquations.hpp \
+ touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
  gui/include/gui/common/SlideMenuContainer.hpp \
  touchgfx/framework/include/touchgfx/containers/ListLayout.hpp
 
@@ -140,6 +152,30 @@ gui/include/gui/model/ModelListener.hpp:
 touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+gui/include/gui/containers/SliderWindow.hpp:
+
+generated/gui_generated/include/gui_generated/containers/SliderWindowBase.hpp:
+
+touchgfx/framework/include/touchgfx/widgets/Box.hpp:
+
+touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
+
+touchgfx/framework/include/touchgfx/widgets/Button.hpp:
+
+touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
+
+touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+touchgfx/framework/include/touchgfx/FontManager.hpp:
+
+touchgfx/framework/include/touchgfx/TypedText.hpp:
+
+touchgfx/framework/include/touchgfx/Texts.hpp:
+
+touchgfx/framework/include/touchgfx/EasingEquations.hpp:
+
+touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:
 
 gui/include/gui/common/SlideMenuContainer.hpp:
 
